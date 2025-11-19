@@ -1,0 +1,2524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClockGrid Component renders the full grid correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      L
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      A
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      M
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      A
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      C
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      Q
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      U
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      A
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      R
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      R
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      D
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      C
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      W
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      Y
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      V
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      X
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      H
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      A
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      L
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      B
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      P
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      A
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      R
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      U
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      X
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      H
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      R
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      U
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      R
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      V
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      W
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      I
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      G
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      H
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      L
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      V
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      V
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      W
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      L
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      V
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginBottom": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      T
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#FF6347",
+            "fontWeight": "bold",
+            "textShadowColor": "#FF6347",
+            "textShadowRadius": 10,
+          },
+        ]
+      }
+    >
+      N
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      E
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O'
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      C
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      L
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      O
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      C
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "height": 57.69230769230769,
+            "margin": 1,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 57.69230769230769,
+          },
+          {
+            "color": "#333333",
+            "fontWeight": "normal",
+            "textShadowColor": "transparent",
+            "textShadowRadius": 0,
+          },
+        ]
+      }
+    >
+      K
+    </Text>
+  </View>
+</View>
+`;

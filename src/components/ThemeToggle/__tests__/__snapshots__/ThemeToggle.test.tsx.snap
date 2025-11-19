@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeToggle Component renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  hitSlop={10}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "backgroundColor": "rgba(224, 224, 224, 1)",
+        "borderColor": "rgba(0,0,0,0.05)",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 28,
+        "justifyContent": "center",
+        "width": 52,
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "elevation": 4,
+          "height": 24,
+          "justifyContent": "center",
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 2.5,
+          "transform": [
+            {
+              "translateX": 2,
+            },
+          ],
+          "width": 24,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text />
+      </View>
+      <View
+        collapsable={false}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "opacity": 0,
+            "position": "absolute",
+          }
+        }
+      >
+        <Text />
+      </View>
+    </View>
+  </View>
+</View>
+`;
