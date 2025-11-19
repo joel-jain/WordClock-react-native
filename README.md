@@ -1,4 +1,4 @@
-# 🕒 Matrix Word Clock
+#  Matrix Word Clock
 
 A production-ready, typographic clock application built with **React Native** and **TypeScript**. This project transforms standard digital time into human-readable sentences (e.g., *"IT IS TEN PAST SIX"*) displayed on a custom animated 11x10 grid.
 
@@ -7,7 +7,7 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
 * **Continuous Delivery (CD):** Automated builds via EAS deliver installable APKs immediately upon release.
 * **Clean Architecture:** Scalable folder structure with strict typing and unit test coverage.
 
-## ✨ Features
+##  Features
 
 * **Fuzzy Time Logic:** Converts numeric time (10:18) into human phrases ("TWENTY PAST TEN").
 * **Matrix Grid UI:** Custom 11x10 letter grid with dynamic highlighting logic.
@@ -27,7 +27,7 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
 * **Testing:** Jest, React Native Testing Library
 * **CI/CD:** GitHub Actions, EAS (Expo Application Services)
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these instructions to run the project on your local machine.
 
@@ -58,7 +58,7 @@ Execute the Unit and Component test suite to verify logic integrity.
 npm test
 ```
 
-## 📦 Building for Production
+##  Building for Production
 
 This project uses **EAS Build** to generate installable Android APKs.
 
@@ -74,7 +74,7 @@ Run the following command to trigger a cloud build for an installable APK (Previ
 eas build --platform android --profile preview
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .github/             # CI/CD Workflows (ci.yml, cd.yml)
@@ -88,7 +88,7 @@ src/
 └── __tests__/       # Unit & Component Tests
 ```
 
-## ⚡ Quick Command Reference
+##  Quick Command Reference
 
 | Command | Description |
 | :--- | :--- |
@@ -98,7 +98,7 @@ src/
 | `eas build -p android --profile preview` | Builds an Android APK in the cloud |
 | `npx expo install [package]` | Installs a new library compatible with Expo |
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
 We have exciting plans to scale this project beyond an MVP. Here is what's coming next:
 
@@ -108,11 +108,12 @@ We have exciting plans to scale this project beyond an MVP. Here is what's comin
   * [ ] **WearOS / WatchOS Support:** Extend the codebase to run as a standalone smartwatch app.
   * [ ] **Store Release:** Publish the production build to the Google Play Store and Apple App Store.
 
-## 📸 Screenshots
+##  Screenshots
 
 | Light Mode | Dark Mode |
 |:---:|:---:|
 | ![light mode](light-mode.png) | ![dark mode](dark-mode.png) |
 
 ```
+        Red Glow         .        Cyan Glow
 ```
