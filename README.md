@@ -115,5 +115,5 @@ We have exciting plans to scale this project beyond an MVP. Here is what's comin
 | ![light mode](light-mode.png) | ![dark mode](dark-mode.png) |
 
 ```
-        Red Glow         .        Cyan Glow
+        Red Glow                        .        Cyan Glow
 ```
