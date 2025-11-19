@@ -43,3 +43,4 @@ Instead of numbers, it uses a grid of glowing letters to tell the time in human-
     ```
 
 ## 📂 Project Structure
+src/ ├── components/ # Reusable UI (Grid, WordCell, ThemeToggle) ├── context/ # Theme State & Persistence Logic ├── hooks/ # Custom Hooks (useTime, useTheme) ├── screens/ # Main Screen Layouts (HomeScreen) ├── theme/ # Color Palettes ├── utils/ # Time Logic & Grid Mapping Data └── tests/ # Unit & Component Tests
