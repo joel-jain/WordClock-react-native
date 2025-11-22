@@ -1,6 +1,6 @@
 import React from 'react';
 import type { WidgetTaskHandlerProps } from 'react-native-android-widget';
-import { WordClockWidget  } from './widgets/wordClockWidget';
+import { WordClockWidget  } from './widgets/WordClockwidget';
 import { timeToWords } from './utils/timeUtils';
 import { WORD_MAP } from './utils/clockData';
 
