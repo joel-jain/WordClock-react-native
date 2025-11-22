@@ -3,7 +3,7 @@ import { FlexWidget, TextWidget } from 'react-native-android-widget';
 import { CLOCK_GRID } from '../utils/clockData';
 
 interface WordClockWidgetProps {
-  activeCoords: string[]; // Example: ["0-0", "0-1", "1-2"]
+  activeCoords: string[];
 }
 
 export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
@@ -16,8 +16,8 @@ export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        padding: 8,
-        borderRadius: 16, 
+        padding: 4,
+        borderRadius: 16,
       }}
     >
       {CLOCK_GRID.map((row, rowIndex) => (
@@ -38,10 +38,10 @@ export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
                 key={coordKey}
                 text={char}
                 style={{
-                  color: isActive ? '#00E5FF' : '#333333', // Cyan vs Dim Gray
-                  fontSize: 14,
+                  color: isActive ? '#00E5FF' : '#333333', // Cyan vs Dark Gray
+                  fontSize: 12, // Slightly smaller to fit safely
                   fontWeight: isActive ? 'bold' : 'normal',
-                  width: 18, // Fixed width helps alignment
+                  width: 16,    // Fixed width for alignment
                   textAlign: 'center',
                 }}
               />

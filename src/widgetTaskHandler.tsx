@@ -1,11 +1,11 @@
 import React from 'react';
 import type { WidgetTaskHandlerProps } from 'react-native-android-widget';
-import { WordClockWidget  } from './widgets/WordClockwidget';
+import { WordClockWidget } from './widgets/WordClockwidget';
 import { timeToWords } from './utils/timeUtils';
 import { WORD_MAP } from './utils/clockData';
 
 export async function widgetTaskHandler(props: WidgetTaskHandlerProps) {
-  // 1. Get Current Time Data
+  // 1. Calculate Time
   const now = new Date();
   const { hourWord, minuteWord, relation } = timeToWords(now);
 
