@@ -1,12 +1,15 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, StyleSheet, Pressable } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../hooks/useTheme';
 import { ClockGrid } from '../../components/Grid/Grid';
 import { ThemeToggle } from '../../components/ThemeToggle/ThemeToggle';
+import { OptionsModal } from '../../components/OptionsModal/OptionsModal';
 
 export const HomeScreen = () => {
   const { colors, isLoading } = useTheme();
+  const [modalVisible, setModalVisible] = useState(false);
 
   if (isLoading) return null;
 
@@ -14,6 +17,23 @@ export const HomeScreen = () => {
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       {/* Top Bar Area */}
       <View style={styles.header}>
+        {/* Options Button (Left) */}
+        <Pressable 
+          onPress={() => setModalVisible(true)}
+          hitSlop={10}
+          style={({ pressed }) => [
+            styles.iconButton,
+            // Apply the border color from your snippet, or dynamic if preferred
+            { borderColor: colors.textDim }, 
+            pressed && { 
+              backgroundColor: 'rgba(128, 128, 128, 0.2)', // Grey background on press
+            }
+          ]}
+        >
+          <Ionicons name="settings-outline" size={24} color={colors.text} />
+        </Pressable>
+
+        {/* Theme Toggle (Right) */}
         <ThemeToggle />
       </View>
 
@@ -22,10 +42,16 @@ export const HomeScreen = () => {
         <ClockGrid />
       </View>
 
-      {/* Footer Area (Empty for now, balances the layout) */}
+      {/* Footer Area */}
       <View style={styles.footer} />
 
       <StatusBar style={colors.statusBarStyle} />
+
+      {/* Options Modal */}
+      <OptionsModal 
+        visible={modalVisible} 
+        onClose={() => setModalVisible(false)} 
+      />
     </View>
   );
 };
@@ -35,9 +61,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 60, // Space for status bar
-    alignItems: 'flex-end', // Put toggle on the right
-    paddingRight: 20,
+    paddingTop: 60,
+    paddingHorizontal: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  iconButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20, // Round shape
+    borderWidth: 1,   // Add border width
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   clockContainer: {
     flex: 1,
@@ -45,6 +81,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footer: {
-    height: 100, // Counter-balance the header height so clock stays centered
+    height: 100,
   },
 });

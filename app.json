@@ -38,11 +38,12 @@
             {
               "name": "WordClock",
               "label": "Word Clock",
-              "minWidth": "320dp",
-              "minHeight": "320dp",
+              "minWidth": "180dp",
+              "minHeight": "180dp",
               "description": "The matrix word clock",
               "previewImage": "./assets/widget-preview/clock.png",
-              "updatePeriodMillis": 1800000
+              "updatePeriodMillis": 1800000,
+              "resizeMode": "horizontal|vertical"
             }
           ]
         }

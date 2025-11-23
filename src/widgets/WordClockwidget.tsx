@@ -13,11 +13,12 @@ export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
         height: 'match_parent',
         width: 'match_parent',
         backgroundColor: '#000000',
+        flexDirection: 'column',
+        borderRadius: 22, // Slightly increased radius for smoother look
+        margin: 8,        // ADDED: Safety margin to prevent corner clipping
+        padding: 8,       // Internal padding
         justifyContent: 'center',
         alignItems: 'center',
-        flexDirection: 'column',
-        padding: 4,
-        borderRadius: 16,
       }}
     >
       {CLOCK_GRID.map((row, rowIndex) => (
@@ -25,8 +26,10 @@ export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
           key={`row-${rowIndex}`}
           style={{
             flexDirection: 'row',
-            justifyContent: 'center',
+            width: 'match_parent',
+            flex: 1,
             alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
           {row.map((char, colIndex) => {
@@ -34,17 +37,25 @@ export function WordClockWidget({ activeCoords }: WordClockWidgetProps) {
             const isActive = activeCoords.includes(coordKey);
 
             return (
-              <TextWidget
+              <FlexWidget
                 key={coordKey}
-                text={char}
                 style={{
-                  color: isActive ? '#00E5FF' : '#333333', // Cyan vs Dark Gray
-                  fontSize: 12, // Slightly smaller to fit safely
-                  fontWeight: isActive ? 'bold' : 'normal',
-                  width: 16,    // Fixed width for alignment
-                  textAlign: 'center',
+                  flex: 1,
+                  height: 'match_parent',
+                  justifyContent: 'center',
+                  alignItems: 'center',
                 }}
-              />
+              >
+                <TextWidget
+                  text={char}
+                  style={{
+                    color: isActive ? '#00E5FF' : '#333333',
+                    fontSize: 18,
+                    fontWeight: isActive ? 'bold' : 'normal',
+                    textAlign: 'center',
+                  }}
+                />
+              </FlexWidget>
             );
           })}
         </FlexWidget>
