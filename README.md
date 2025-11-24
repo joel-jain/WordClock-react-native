@@ -90,7 +90,7 @@ src/
 
 ##  Quick Command Reference
 
-## ⚡ Quick Command Reference
+## Quick Command Reference
 
 | Command | Description |
 | :--- | :--- |
@@ -100,14 +100,13 @@ src/
 | `eas build -p android --profile production-apk` | Builds a release-ready Android APK |
 | `npx expo install [package]` | Installs a new library compatible with Expo |
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 We have exciting plans to scale this project beyond an MVP. Here is what's coming next:
 
 * [ ] **Custom Themes:** Implement a theme selector with new palettes (e.g., *Matrix Green*, *Cyberpunk Neon*, *Dracula*).
 * [ ] **Multi-Language Support (i18n):** Adapt the core logic to support Spanish, German, and French time phrasing.
 * [ ] **WearOS / WatchOS Support:** Extend the codebase to run as a standalone smartwatch app.
-* [ ] **Store Release:** Publish the production build to the Google Play Store and Apple App Store.
 
 ##  Screenshots
 
