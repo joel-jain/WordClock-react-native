@@ -22,7 +22,6 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
 * **Robust Testing:** Full Unit and Component test suite using Jest & React Native Testing Library.
 * **Automated Pipelines:**
     * **CI:** Runs tests on every Pull Request to prevent regressions.
-    * **CD:** Automatically builds an Android APK via EAS when code is pushed to `main`.
 
 ## Tech Stack
 
