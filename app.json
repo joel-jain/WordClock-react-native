@@ -38,8 +38,8 @@
             {
               "name": "WordClock",
               "label": "Word Clock",
-              "minWidth": "180dp",
-              "minHeight": "180dp",
+              "minWidth": "320dp",
+              "minHeight": "320dp",
               "description": "The matrix word clock",
               "previewImage": "./assets/widget-preview/clock.png",
               "updatePeriodMillis": 1800000,
