@@ -7,6 +7,11 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
 * **Continuous Delivery (CD):** Automated builds via EAS deliver installable APKs immediately upon release.
 * **Clean Architecture:** Scalable folder structure with strict typing and unit test coverage.
 
+<p align="center">
+  <img src="light-mode.png" width="300" alt="Light Mode" />
+  <img src="dark-mode.png" width="300" alt="Dark Mode" />
+</p>
+
 ## Features
 
 * **Fuzzy Time Logic:** Converts numeric time (10:18) into human phrases ("TWENTY PAST TEN").
@@ -19,7 +24,7 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
     * **CI:** Runs tests on every Pull Request to prevent regressions.
     * **CD:** Automatically builds an Android APK via EAS when code is pushed to `main`.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Framework:** React Native (Expo SDK 52)
 * **Language:** TypeScript
@@ -31,30 +36,53 @@ Beyond the visual interface, this repository demonstrates a complete **DevOps Li
 
 ## Getting Started
 
-Follow these instructions to run the project on your local machine.
+Follow these instructions to set up and run the project on your local machine.
+
+### Prerequisites
+
+Ensure you have the following tools installed:
+* **Node.js** (v18+ recommended)
+* **npm** (comes with Node)
+* **Git**
+* **Android Studio** (for Android emulator/widget testing) or **Expo Go** app (for physical device testing).
 
 ### 1. Installation
-Clone the repository and install the necessary dependencies.
 
 ```bash
+# Clone the repository
 git clone [https://github.com/joel-jain/WordClock-react-native.git](https://github.com/joel-jain/WordClock-react-native.git)
+
+# Navigate to project folder
 cd WordClock-react-native
+
+# Install dependencies
 npm install
-```
+````
 
-### 2. Running the App
+### 2\. Running the App
 
-Start the Expo development server. You can scan the QR code with the **Expo Go** app on Android/iOS.
+Start the Expo development server:
 
 ```bash
 npx expo start
 ```
 
-*(Tip: Use `npx expo start --clear` if you encounter cache issues).*
+  * **Scan QR Code:** Open **Expo Go** on your phone and scan the terminal QR code.
+  * **Emulators:** Press `a` for Android or `i` for iOS (macOS only).
 
-### 3. Running Tests
+### 3\. Testing the Widget (Android)
 
-Execute the Unit and Component test suite to verify logic integrity.
+To test the native Android widget, you must run the native build command (requires Android Studio/Emulator):
+
+```bash
+npx expo run:android
+```
+
+*Once installed, long-press your home screen, select "Widgets", and find "Word Clock".*
+
+### 4\. Running Tests
+
+Execute the test suite to verify logic integrity:
 
 ```bash
 npm test
@@ -64,56 +92,40 @@ npm test
 
 This project uses **EAS Build** to generate installable Android APKs.
 
-**Prerequisites:**
-* An [Expo Account](https://expo.dev/signup)
-* EAS CLI installed globally (`npm install -g eas-cli`)
+1.  **Install EAS CLI:**
+    ```bash
+    npm install -g eas-cli
+    ```
+2.  **Login to Expo:**
+    ```bash
+    eas login
+    ```
+3.  **Build APK:**
+    ```bash
+    eas build --platform android --profile production-apk
+    ```
 
-**Build Command:**
-Run the following command to trigger a cloud build for a standalone APK (using the custom production profile):
-
-```bash
-eas build --platform android --profile production-apk
-
-##  Project Structure
+## Project Structure
 
 ```
-.github/             # CI/CD Workflows (ci.yml, cd.yml)
+.github/             # CI/CD Workflows (ci.yml)
 src/
-├── components/      # Reusable UI (Grid, WordCell, ThemeToggle)
+├── components/      # Reusable UI (Grid, WordCell, ThemeToggle, OptionsModal)
 ├── context/         # Theme State & Persistence Logic
 ├── hooks/           # Custom Hooks (useTime, useTheme)
 ├── screens/         # Main Screen Layouts (HomeScreen)
 ├── theme/           # Color Palettes
 ├── utils/           # Time Logic & Grid Mapping Data
+├── widgets/         # Android Home Screen Widget Logic
 └── __tests__/       # Unit & Component Tests
 ```
 
-##  Quick Command Reference
-
-## Quick Command Reference
-
-| Command | Description |
-| :--- | :--- |
-| `npm install` | Installs all dependencies listed in package.json |
-| `npx expo start` | Starts the local development server |
-| `npm test` | Runs the full Jest test suite |
-| `eas build -p android --profile production-apk` | Builds a release-ready Android APK |
-| `npx expo install [package]` | Installs a new library compatible with Expo |
-
 ## Future Roadmap
 
-We have exciting plans to scale this project beyond an MVP. Here is what's coming next:
+  * [ ] **Custom Themes:** Implement a theme selector with new palettes (e.g., *Matrix Green*, *Cyberpunk Neon*).
+  * [ ] **Multi-Language Support (i18n):** Adapt logic for Spanish, German, and French.
+  * [ ] **WearOS Support:** Extend codebase for smartwatch apps.
 
-* [ ] **Custom Themes:** Implement a theme selector with new palettes (e.g., *Matrix Green*, *Cyberpunk Neon*, *Dracula*).
-* [ ] **Multi-Language Support (i18n):** Adapt the core logic to support Spanish, German, and French time phrasing.
-* [ ] **WearOS / WatchOS Support:** Extend the codebase to run as a standalone smartwatch app.
+-----
 
-##  Screenshots
-
-| Light Mode | Dark Mode |
-|:---:|:---:|
-| ![light mode](light-mode.png) | ![dark mode](dark-mode.png) |
-
-```
-        Red Glow                        .        Cyan Glow
-```
+Built with ❤️ using React Native & Expo.
