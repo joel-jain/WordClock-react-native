@@ -1,7 +1,8 @@
 import { timeToWords } from '../timeUtils';
 
-describe('timeToWords Logic', () => {
+describe('Fuzzy Time Logic (timeToWords)', () => {
   
+  // Helper to construct a Date object with specific time
   const createTime = (hours: number, minutes: number) => {
     const date = new Date();
     date.setHours(hours);
@@ -10,64 +11,92 @@ describe('timeToWords Logic', () => {
     return date;
   };
 
-  test('handles exact hour (10:00)', () => {
-    const time = createTime(10, 0);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: '',
-      relation: "O'CLOCK",
-      hourWord: 'TEN_HR' // Updated to match our Grid Logic
+  describe('Exact Times', () => {
+    test('handles exact hour (10:00)', () => {
+      const time = createTime(10, 0);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: '',
+        relation: "O'CLOCK",
+        hourWord: 'TEN_HR'
+      });
+    });
+
+    test('handles half past (10:30)', () => {
+      const time = createTime(10, 30);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: 'HALF',
+        relation: 'PAST',
+        hourWord: 'TEN_HR'
+      });
     });
   });
 
-  test('handles "PAST" logic (10:10)', () => {
-    const time = createTime(10, 10);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: 'TEN',
-      relation: 'PAST',
-      hourWord: 'TEN_HR' // Updated
+  describe('Fuzzy Rounding', () => {
+    test('rounds down (10:12 -> 10:10)', () => {
+      const time = createTime(10, 12);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: 'TEN',
+        relation: 'PAST',
+        hourWord: 'TEN_HR'
+      });
+    });
+
+    test('rounds up (10:13 -> 10:15)', () => {
+      const time = createTime(10, 13);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: 'QUARTER',
+        relation: 'PAST',
+        hourWord: 'TEN_HR'
+      });
     });
   });
 
-  test('rounds minutes correctly (10:18 -> 10:20)', () => {
-    const time = createTime(10, 18);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: 'TWENTY',
-      relation: 'PAST',
-      hourWord: 'TEN_HR' // Updated
+  describe('"TO" Logic & Hour Wrap', () => {
+    test('handles "TO" relation (10:40 -> TWENTY TO ELEVEN)', () => {
+      const time = createTime(10, 40);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: 'TWENTY',
+        relation: 'TO',
+        hourWord: 'ELEVEN' 
+      });
+    });
+
+    test('handles near-next-hour rounding (10:58 -> 11:00)', () => {
+      const time = createTime(10, 58);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: '',
+        relation: "O'CLOCK",
+        hourWord: 'ELEVEN'
+      });
     });
   });
 
-  test('handles "TO" logic (10:45 -> QUARTER TO ELEVEN)', () => {
-    const time = createTime(10, 45);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: 'QUARTER',
-      relation: 'TO',
-      hourWord: 'ELEVEN' 
+  describe('Edge Cases (Midnight/Noon)', () => {
+    test('handles midnight (00:00 -> TWELVE)', () => {
+      const time = createTime(0, 0);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: '',
+        relation: "O'CLOCK",
+        hourWord: 'TWELVE'
+      });
     });
-  });
 
-  test('handles hour wrap-around (12:58 -> 1:00)', () => {
-    const time = createTime(12, 58);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: '',
-      relation: "O'CLOCK",
-      hourWord: 'ONE'
+    test('handles noon (12:00 -> TWELVE)', () => {
+      const time = createTime(12, 0);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: '',
+        relation: "O'CLOCK",
+        hourWord: 'TWELVE'
+      });
     });
-  });
 
-  // New test to verify FIVE_HR logic just in case
-  test('handles 5:00 correctly (FIVE_HR)', () => {
-    const time = createTime(5, 0);
-    const result = timeToWords(time);
-    expect(result).toEqual({
-      minuteWord: '',
-      relation: "O'CLOCK",
-      hourWord: 'FIVE_HR' // Should be FIVE_HR, not FIVE
+    test('handles 23:55 -> FIVE TO TWELVE (next day wrap)', () => {
+      const time = createTime(23, 55);
+      expect(timeToWords(time)).toEqual({
+        minuteWord: 'FIVE',
+        relation: 'TO',
+        hourWord: 'TWELVE' // 23+1 = 24 -> 0 -> TWELVE
+      });
     });
   });
 });
